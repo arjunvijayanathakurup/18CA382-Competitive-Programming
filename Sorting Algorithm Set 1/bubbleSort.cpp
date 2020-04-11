@@ -5,8 +5,8 @@ using namespace std;
 
 // Print function for displaying values
 void print_sort(vector<int> &arr){
-    for(int i = 0; i < arr.size(); i++){
-        cout<<arr[i]<<"\t";
+    for(auto i = arr.begin(); i != arr.end(); i++){
+        cout<<*i<<"\t";
     }
     cout<<"\n";
 }
