@@ -3,19 +3,50 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+// Print function for displaying values
+void print_sort(vector<int> &arr){
+    for(int i = 0; i < arr.size(); i++){
+        cout<<arr[i]<<"\t";
+    }
+    cout<<"\n";
+}
 
-    int arr[] = {1, 3, 8, 2, 9, 2, 5, 6};
-    int n = 8;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n-1; j++) {
+// Sort function for performing bubble sort
+void bubble_sort(vector<int> &arr){
+    for (int i = 0; i < arr.size(); i++) {
+        for (int j = 0; j < (arr.size()-1); j++) {
             if (arr[j] > arr[j+1]) {
                 swap(arr[j],arr[j+1]);
             }
         }
     }
-    for(int i = 0; i < n; i++){
-        cout<<arr[i]<<"\t";
+}
+
+
+
+int main(){
+    // Insert testcase
+    int T;
+    cin>>T;
+
+    while(T){
+        // Initialize vector array
+        vector<int> arr;
+        int n = 0, temp_var = 0;
+        // Input size of array
+        cin>>n;
+        // Take user input values
+        for(int i = 0; i < n; i++){
+            cin>>temp_var;
+            arr.push_back(temp_var);
+        }
+
+        // Sorting function call
+        bubble_sort(arr);
+
+        // Printing function call
+        print_sort(arr);
+        T--;
     }
     return 0;
 }
