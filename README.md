@@ -5,6 +5,12 @@ This repository contains the code from the course 18CA382 -Competitive Programmi
 
 2. [Sorting Algorithm Set 2](https://github.com/arjunvijayanathakurup/18CA382-Competitive-Programming/blob/master/Sorting%20Algorithm%20Set%202/) - Contains the code of Merge sort & Quick sort implemented in C++. 
 
+3. [DFS (Depth First Search)](https://github.com/arjunvijayanathakurup/18CA382-Competitive-Programming/tree/master/DFS) - Contains the code of DFS implemented in C++.
+
+4. [BFS (Breadth First Search)](https://github.com/arjunvijayanathakurup/18CA382-Competitive-Programming/tree/master/BFS) - Contains the code of BFS implemented in C++.
+
+5. [Minimum Spanning Tree](https://github.com/arjunvijayanathakurup/18CA382-Competitive-Programming/tree/master/Minimum%20Spanning%20Tree) - Contains the code of Prim's algorithm & Kruskal's algorithm implemented in C++.
+
     ### Running
         * First input will be the number of test cases.
         * Second input will be the size of array.
