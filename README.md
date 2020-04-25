@@ -11,6 +11,8 @@ This repository contains the code from the course 18CA382 -Competitive Programmi
 
 5. [Minimum Spanning Tree](https://github.com/arjunvijayanathakurup/18CA382-Competitive-Programming/tree/master/Minimum%20Spanning%20Tree) - Contains the code of Prim's algorithm & Kruskal's algorithm implemented in C++.
 
+6. [Dijkstras Algorithm](https://github.com/arjunvijayanathakurup/18CA382-Competitive-Programming/tree/master/Dijkstras%20Algorithm) - Contains code of Dijkstra's Algorithm implemented in C++.
+
     ### Running
         * First input will be the number of test cases.
         * Second input will be the size of array.
